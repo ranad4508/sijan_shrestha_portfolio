@@ -176,7 +176,7 @@ function HeroSection() {
 
             {/* Stats - Responsive grid */}
             <motion.div
-              className="grid grid-cols-3 gap-4 sm:gap-6 lg:gap-8 max-w-sm sm:max-w-md mx-auto lg:mx-0"
+              className="grid grid-cols-2 gap-4 sm:gap-6 lg:gap-8 max-w-sm sm:max-w-md mx-auto lg:mx-0"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1 }}
