@@ -191,7 +191,7 @@ function HeroSection() {
                 </div>
                 <div className="text-white/60 text-xs sm:text-sm">Years</div>
               </motion.div>
-              <motion.div
+              {/* <motion.div
                 className="text-center"
                 whileHover={{ scale: 1.05 }}
                 transition={{ type: "spring", stiffness: 300 }}
@@ -202,7 +202,7 @@ function HeroSection() {
                 <div className="text-white/60 text-xs sm:text-sm">
                   Companies
                 </div>
-              </motion.div>
+              </motion.div> */}
               <motion.div
                 className="text-center"
                 whileHover={{ scale: 1.05 }}

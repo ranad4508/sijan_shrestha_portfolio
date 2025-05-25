@@ -79,7 +79,7 @@ function AboutHero() {
                 </div>
               </motion.div>
 
-              <motion.div
+              {/* <motion.div
                 className="absolute -bottom-3 -left-3 sm:-bottom-6 sm:-left-6 bg-white dark:bg-gray-800 rounded-xl sm:rounded-2xl p-3 sm:p-6 shadow-2xl border border-pink-200 dark:border-pink-800"
                 animate={{ y: [0, 10, 0] }}
                 transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY }}
@@ -92,7 +92,7 @@ function AboutHero() {
                     Companies
                   </div>
                 </div>
-              </motion.div>
+              </motion.div> */}
             </div>
           </motion.div>
 

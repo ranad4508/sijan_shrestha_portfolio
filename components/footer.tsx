@@ -17,7 +17,7 @@ export default function Footer() {
   return (
     <footer className="bg-gradient-to-br from-gray-900 via-purple-900 to-pink-900 text-white">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* About Section */}
           <div>
             <h3 className="text-xl font-bold mb-4 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
@@ -125,7 +125,7 @@ export default function Footer() {
           </div>
 
           {/* Companies */}
-          <div>
+          {/* <div>
             <h3 className="text-xl font-bold mb-4 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
               Companies
             </h3>
@@ -164,7 +164,7 @@ export default function Footer() {
                 </div>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* Contact */}
           <div>
